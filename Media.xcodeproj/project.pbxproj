@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808777A2944DDE6005B4211 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180877792944DDE6005B4211 /* SignInVC.swift */; };
+		1808777C2948E134005B4211 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808777B2948E134005B4211 /* User.swift */; };
 		183A59C8293FBA4B00277996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A59C7293FBA4B00277996 /* AppDelegate.swift */; };
-		183A59CA293FBA4B00277996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A59C9293FBA4B00277996 /* SceneDelegate.swift */; };
-		183A59CC293FBA4B00277996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A59CB293FBA4B00277996 /* ViewController.swift */; };
 		183A59CF293FBA4B00277996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A59CD293FBA4B00277996 /* Main.storyboard */; };
 		183A59D1293FBA4D00277996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183A59D0293FBA4D00277996 /* Assets.xcassets */; };
 		183A59D4293FBA4D00277996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A59D2293FBA4D00277996 /* LaunchScreen.storyboard */; };
+		183A59DE293FBB0600277996 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A59DD293FBB0600277996 /* ProfileVC.swift */; };
+		183A59E0293FBB2400277996 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A59DF293FBB2400277996 /* SignUpVC.swift */; };
+		1842F25D29684BE100ADEAB0 /* MediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842F25C29684BE100ADEAB0 /* MediaListVC.swift */; };
+		1842F26029684DAB00ADEAB0 /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842F25E29684DAB00ADEAB0 /* MediaCell.swift */; };
+		1842F26129684DAB00ADEAB0 /* MediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1842F25F29684DAB00ADEAB0 /* MediaCell.xib */; };
+		18481216297B01F100F3084C /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18481215297B01F100F3084C /* MediaResponse.swift */; };
+		18481218297B44BE00F3084C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18481217297B44BE00F3084C /* APIManager.swift */; };
+		18A6ADA3294E084C00776ED5 /* UIviewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6ADA2294E084C00776ED5 /* UIviewController+Alert.swift */; };
+		18C0BAB22959EBC80027A714 /* CLplacemark+combactAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0BAB12959EBC80027A714 /* CLplacemark+combactAddress.swift */; };
+		18DB762029A959960083ADBD /* SqlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB761F29A959960083ADBD /* SqlManager.swift */; };
+		18E8C729295617F8007EBEFF /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8C728295617F8007EBEFF /* MapVC.swift */; };
+		6818BE5BF0E6F91B9B29421C /* Pods_Media.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D323F88419394E666CB63D /* Pods_Media.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180877792944DDE6005B4211 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		1808777B2948E134005B4211 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		183A59C4293FBA4B00277996 /* Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Media.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A59C7293FBA4B00277996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		183A59C9293FBA4B00277996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		183A59CB293FBA4B00277996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		183A59CE293FBA4B00277996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183A59D0293FBA4D00277996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183A59D3293FBA4D00277996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183A59D5293FBA4D00277996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183A59DD293FBB0600277996 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		183A59DF293FBB2400277996 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		1842F25C29684BE100ADEAB0 /* MediaListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListVC.swift; sourceTree = "<group>"; };
+		1842F25E29684DAB00ADEAB0 /* MediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
+		1842F25F29684DAB00ADEAB0 /* MediaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaCell.xib; sourceTree = "<group>"; };
+		18481215297B01F100F3084C /* MediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
+		18481217297B44BE00F3084C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		18A6ADA2294E084C00776ED5 /* UIviewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIviewController+Alert.swift"; sourceTree = "<group>"; };
+		18C0BAB12959EBC80027A714 /* CLplacemark+combactAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLplacemark+combactAddress.swift"; sourceTree = "<group>"; };
+		18DB761F29A959960083ADBD /* SqlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlManager.swift; sourceTree = "<group>"; };
+		18E8C728295617F8007EBEFF /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		7408CAF09D5134C56BDFE82E /* Pods-Media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media.release.xcconfig"; path = "Target Support Files/Pods-Media/Pods-Media.release.xcconfig"; sourceTree = "<group>"; };
+		A8901A92C9FB74AFC9BC1C03 /* Pods-Media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media.debug.xcconfig"; path = "Target Support Files/Pods-Media/Pods-Media.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D323F88419394E666CB63D /* Pods_Media.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Media.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6818BE5BF0E6F91B9B29421C /* Pods_Media.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				183A59C6293FBA4B00277996 /* Media */,
 				183A59C5293FBA4B00277996 /* Products */,
+				7B806458FD933A7B5DCBDB58 /* Pods */,
+				8A752EF9AA581814463755FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +86,82 @@
 			isa = PBXGroup;
 			children = (
 				183A59C7293FBA4B00277996 /* AppDelegate.swift */,
-				183A59C9293FBA4B00277996 /* SceneDelegate.swift */,
-				183A59CB293FBA4B00277996 /* ViewController.swift */,
-				183A59CD293FBA4B00277996 /* Main.storyboard */,
+				18DB761F29A959960083ADBD /* SqlManager.swift */,
+				1848121A297B4C3900F3084C /* Networking */,
+				1842F2632968FEA000ADEAB0 /* Model */,
+				1842F2662968FFD200ADEAB0 /* View */,
+				1842F2642968FF1A00ADEAB0 /* Controller */,
+				1842F2682969006800ADEAB0 /* Extentions */,
 				183A59D0293FBA4D00277996 /* Assets.xcassets */,
-				183A59D2293FBA4D00277996 /* LaunchScreen.storyboard */,
 				183A59D5293FBA4D00277996 /* Info.plist */,
 			);
 			path = Media;
+			sourceTree = "<group>";
+		};
+		1842F2632968FEA000ADEAB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1808777B2948E134005B4211 /* User.swift */,
+				18481215297B01F100F3084C /* MediaResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1842F2642968FF1A00ADEAB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				183A59DF293FBB2400277996 /* SignUpVC.swift */,
+				18E8C728295617F8007EBEFF /* MapVC.swift */,
+				180877792944DDE6005B4211 /* SignInVC.swift */,
+				183A59DD293FBB0600277996 /* ProfileVC.swift */,
+				1842F25C29684BE100ADEAB0 /* MediaListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1842F2662968FFD200ADEAB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183A59CD293FBA4B00277996 /* Main.storyboard */,
+				183A59D2293FBA4D00277996 /* LaunchScreen.storyboard */,
+				1842F25E29684DAB00ADEAB0 /* MediaCell.swift */,
+				1842F25F29684DAB00ADEAB0 /* MediaCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1842F2682969006800ADEAB0 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				18A6ADA2294E084C00776ED5 /* UIviewController+Alert.swift */,
+				18C0BAB12959EBC80027A714 /* CLplacemark+combactAddress.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		1848121A297B4C3900F3084C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18481217297B44BE00F3084C /* APIManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7B806458FD933A7B5DCBDB58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8901A92C9FB74AFC9BC1C03 /* Pods-Media.debug.xcconfig */,
+				7408CAF09D5134C56BDFE82E /* Pods-Media.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A752EF9AA581814463755FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D323F88419394E666CB63D /* Pods_Media.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183A59D8293FBA4D00277996 /* Build configuration list for PBXNativeTarget "Media" */;
 			buildPhases = (
+				AF4970468D7EA0179BDAA38E /* [CP] Check Pods Manifest.lock */,
 				183A59C0293FBA4B00277996 /* Sources */,
 				183A59C1293FBA4B00277996 /* Frameworks */,
 				183A59C2293FBA4B00277996 /* Resources */,
+				EA0A88CA0CF4E2304B0926D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +202,7 @@
 				};
 			};
 			buildConfigurationList = 183A59BF293FBA4B00277996 /* Build configuration list for PBXProject "Media" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,20 +226,73 @@
 			files = (
 				183A59D4293FBA4D00277996 /* LaunchScreen.storyboard in Resources */,
 				183A59D1293FBA4D00277996 /* Assets.xcassets in Resources */,
+				1842F26129684DAB00ADEAB0 /* MediaCell.xib in Resources */,
 				183A59CF293FBA4B00277996 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AF4970468D7EA0179BDAA38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Media-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0A88CA0CF4E2304B0926D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Media/Pods-Media-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Media/Pods-Media-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Media/Pods-Media-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		183A59C0293FBA4B00277996 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183A59CC293FBA4B00277996 /* ViewController.swift in Sources */,
+				18481218297B44BE00F3084C /* APIManager.swift in Sources */,
+				18C0BAB22959EBC80027A714 /* CLplacemark+combactAddress.swift in Sources */,
+				18DB762029A959960083ADBD /* SqlManager.swift in Sources */,
+				183A59DE293FBB0600277996 /* ProfileVC.swift in Sources */,
+				1842F26029684DAB00ADEAB0 /* MediaCell.swift in Sources */,
 				183A59C8293FBA4B00277996 /* AppDelegate.swift in Sources */,
-				183A59CA293FBA4B00277996 /* SceneDelegate.swift in Sources */,
+				1842F25D29684BE100ADEAB0 /* MediaListVC.swift in Sources */,
+				18481216297B01F100F3084C /* MediaResponse.swift in Sources */,
+				18A6ADA3294E084C00776ED5 /* UIviewController+Alert.swift in Sources */,
+				1808777C2948E134005B4211 /* User.swift in Sources */,
+				1808777A2944DDE6005B4211 /* SignInVC.swift in Sources */,
+				18E8C729295617F8007EBEFF /* MapVC.swift in Sources */,
+				183A59E0293FBB2400277996 /* SignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +434,7 @@
 		};
 		183A59D9293FBA4D00277996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8901A92C9FB74AFC9BC1C03 /* Pods-Media.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,11 +442,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Media/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Media Finder";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need to access user location to get address";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to access user location to get address";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,14 +458,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.IDEAEG.Media;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		183A59DA293FBA4D00277996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7408CAF09D5134C56BDFE82E /* Pods-Media.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,11 +477,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Media/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Media Finder";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need to access user location to get address";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to access user location to get address";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +493,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.IDEAEG.Media;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

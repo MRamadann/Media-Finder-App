@@ -5,32 +5,53 @@
 //  Created by Apple on 06/12/2022.
 //
 
-import UIKit
+
+import IQKeyboardManagerSwift
+import SQLite
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+//MARK: - Propreties.
+    var window: UIWindow?
+    //Connection
+  
+    
+//MARK: - Application Methods.
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        handleRoot()
+        IQKeyboardManager.shared.enable = true
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    
+//MARK: - Public Methods
+    func switchToMedia(){
+        let MediaListVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MediaListVC")
+        let navController = UINavigationController(rootViewController: MediaListVC)
+         window?.rootViewController = navController
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
+    func switchToSignUp(){
+       let SignUpVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SignUpVC")
+       let navController = UINavigationController(rootViewController: SignUpVC)
+        window?.rootViewController = navController
+   }
+   func switchToSignIn(){
+       let SignInVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SignInVC")
+       let navController = UINavigationController(rootViewController: SignInVC)
+        window?.rootViewController = navController
+   }
 }
+//MARK: - Private Methods
+extension AppDelegate {
+    private func handleRoot() {
+        if UserDefaults.standard.string(forKey: "email") != nil {
+            let isLoggedin = UserDefaults.standard.bool(forKey: "isLoggedIn")
+            if isLoggedin {
+                switchToMedia()
+            } else {
+                switchToSignUp()            }
+        }
+    }
+}
+
 
